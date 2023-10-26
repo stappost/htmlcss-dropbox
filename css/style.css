@@ -85,13 +85,16 @@ hr{
 .bg_black{
     background-color: black;
 }
+.bg_white{
+    background-color: white;
+}
 .text-white{
     color: white;
 }
 .text-center{
     text-align: center;
 }
-button.text-white{
+button{
     padding: 5px 10px;
 }
 .padding-y-20{
@@ -102,6 +105,9 @@ button.text-white{
 }
 .margin-top-50{
     margin-top: 50px;
+}
+.img{
+    width: 100%;
 }
 /* HEADER  */
 li{
