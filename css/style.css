@@ -3,3 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* COMMON  */
+.container-full{
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50{
+    width: 50%;
+}
+
+.content{
+    width: 100%;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.h-30{
+    height: 30px;
+}
