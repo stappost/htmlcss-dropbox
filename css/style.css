@@ -113,6 +113,10 @@ li{
 .w-50{ 
     width:50%;
 }
+.right{
+    
+}
+
 /* bg e color */
 .bg_blue{
     background-color: rgb(4, 37, 147);
@@ -167,6 +171,9 @@ li{
 .padding-bot-50{
     padding-bottom: 50px;
 }
+.padding-bot-20{
+    padding-bottom: 20px;
+}
 .padding-20{
     padding: 20px;
 }
@@ -184,6 +191,9 @@ li{
 }
 .margin-y-100{
     margin: 100px 0;
+}
+.border-bot{
+    border-bottom: 1px solid gray;
 }
 
 /* HEADER  */
