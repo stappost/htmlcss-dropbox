@@ -229,13 +229,18 @@ h2{
     padding: 10px;
 }
 li > i{
-    padding-right: 10px;
+    padding-right: 5px;
+    margin-left: -1em;
 }
-.check::before{
+.col-30.border > .content > .padding-20 > ul li{
+    padding-left: 20px;
+}
+
+.check li::before{
     content:  "\2713";
     color: blue;
-    font-weight: 600;
-    padding: 0 6px 0 0;
+    font-weight: 700;
+    margin-left: -1em;
 }
 h3{
     font-size: 25px;
