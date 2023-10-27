@@ -83,7 +83,6 @@ hr{
 }
 .small{
     width: 20%;
-    margin: 30px ;
 }
 .text-center{
     text-align: center;
@@ -138,16 +137,25 @@ li{
 .text-white{
     color: white;
 }
+.text-gray{
+    color: gray;
+}
 
 /* space  */
 .padding-y-20{
     padding: 20px 0;
+}
+.padding-top-20{
+    padding-top: 20px;
 }
 .padding-bot-50{
     padding-bottom: 50px;
 }
 .padding-20{
     padding: 20px;
+}
+.padding-50{
+    padding: 50px;
 }
 .margin-y-40{
     margin: 40px 0;
@@ -193,6 +201,15 @@ h2{
 }
 .type-business{
     padding: 10px;
+}
+li > i{
+    padding-right: 10px;
+}
+.check::before{
+    content:  "\2713";
+    color: blue;
+    font-weight: 600;
+    padding: 0 6px 0 0;
 }
 
 .svg{
