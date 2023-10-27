@@ -33,6 +33,14 @@
 .relative{
     position: relative;
 }
+.layout{
+    width: 90%;
+    height: 90%;
+    margin: 5%;
+}
+.max-h{
+    height: calc(100vw / 3);
+}
 
 /* column  */
 .col-20{
@@ -107,11 +115,10 @@ li{
 }
 /* bg e color */
 .bg_blue{
-    background-color: rgb(49, 96, 249);
-    padding-top: 10px;
+    background-color: rgb(4, 37, 147);
 }
 .bg_lightblue{
-    background-color: rgb(92, 188, 239);
+    background-color: rgb(27, 138, 198);
 }
 .bg_black{
     background-color: black;
@@ -119,23 +126,29 @@ li{
 .bg_white{
     background-color: white;
 }
+.bg_lightgreen{
+    background-color: rgb(174, 197, 174);
+}
 .bg_green{
-    background-color: green;
+    background-color: rgb(125, 199, 125);
 }
 .bg_darkred{
-    background-color: darkred;
+    background-color: rgb(89, 2, 2);
 }
 .bg_red{
     background-color: red;
 }
 .bg_yellow{
-    background-color: yellow;
+    background-color: rgb(242, 206, 1);
 }
 .bg_skyblue{
     background-color: rgb(178, 209, 231);
 }
 .bg_lightgray{
     background-color: rgb(239, 239, 239);
+}
+.text-darkred{
+    color: rgb(89, 2, 2);
 }
 .text-white{
     color: white;
@@ -159,6 +172,9 @@ li{
 }
 .padding-50{
     padding: 50px;
+}
+.margin-top-20{
+    margin-top: 20px;
 }
 .margin-y-40{
     margin: 40px 0;
