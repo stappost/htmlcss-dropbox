@@ -134,6 +134,9 @@ li{
 .bg_skyblue{
     background-color: rgb(178, 209, 231);
 }
+.bg_lightgray{
+    background-color: rgb(239, 239, 239);
+}
 .text-white{
     color: white;
 }
@@ -211,7 +214,9 @@ li > i{
     font-weight: 600;
     padding: 0 6px 0 0;
 }
-
+h3{
+    font-size: 25px;
+}
 .svg{
     
     filter: invert(100%);
