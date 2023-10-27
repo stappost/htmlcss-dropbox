@@ -99,7 +99,7 @@ hr{
     align-items: center;
 }
 button{
-    padding: 10px;
+    padding: 10px 20px;
     border: 0;
     
 }
@@ -112,9 +112,6 @@ li{
 }
 .w-50{ 
     width:50%;
-}
-.right{
-    
 }
 
 /* bg e color */
@@ -251,9 +248,18 @@ h3{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.bg_lightgray.max-h{
+    overflow: auto;
+}
 
 /* FOOTER  */
 footer hr {
     width: 50%;
     margin: 50px 0 20px;
+}
+footer > .bg_black{
+    padding-top: 40px;
+}
+footer li:first-of-type{
+    font-size: 25px;
 }
