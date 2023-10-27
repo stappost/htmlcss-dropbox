@@ -88,6 +88,9 @@ hr{
 .text-center{
     text-align: center;
 }
+.align-center{
+    align-items: center;
+}
 button{
     padding: 10px;
     border: 0;
@@ -140,11 +143,20 @@ li{
 .padding-y-20{
     padding: 20px 0;
 }
+.padding-bot-50{
+    padding-bottom: 50px;
+}
 .padding-20{
     padding: 20px;
 }
+.margin-y-40{
+    margin: 40px 0;
+}
 .margin-top-50{
     margin-top: 50px;
+}
+.margin-top-100{
+    margin-top: 100px;
 }
 
 /* HEADER  */
