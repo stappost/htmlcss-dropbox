@@ -22,9 +22,18 @@
     flex-wrap: wrap;
 }
 .d-flex{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
+.square{
+    width: 50%;
+    height: calc(100vw / 6);
+}
+.relative{
+    position: relative;
+}
+
 /* column  */
 .col-20{
     width: 20%;
@@ -91,6 +100,9 @@ li{
     list-style-type: none;
     padding: 10px 0 ;
 }
+.w-50{ 
+    width:50%;
+}
 /* bg e color */
 .bg_blue{
     background-color: blue;
@@ -105,9 +117,25 @@ li{
 .bg_white{
     background-color: white;
 }
+.bg_green{
+    background-color: green;
+}
+.bg_darkred{
+    background-color: darkred;
+}
+.bg_red{
+    background-color: red;
+}
+.bg_yellow{
+    background-color: yellow;
+}
+.bg_skyblue{
+    background-color: rgb(164, 219, 208);
+}
 .text-white{
     color: white;
 }
+
 /* space  */
 .padding-y-20{
     padding: 20px 0;
@@ -146,4 +174,13 @@ h2{
 }
 .type-business{
     padding: 10px;
+}
+
+.svg{
+    
+    filter: invert(100%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
