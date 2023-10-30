@@ -231,10 +231,10 @@ header ul{
 header img{
     min-width:10px ;
 }
-.show:hover{
+#show-1:hover{
     background-color: rgb(208, 201, 196);
 }
-.show:hover .hidden{
+header #show-1:hover .hidden{
     display: flex;
     position: absolute;
     top: 40px;
@@ -339,7 +339,19 @@ h3{
 .square.bg_lightgreen:hover{
     background-color: rgb(3, 255, 3) ;
 }
-
+.show-answ-2:hover i{
+   position: absolute;
+   right: 5px;
+   top: 25px;
+}
+.show:hover .hidden{
+    display: block;
+    overflow: auto;
+    max-height: 200px;
+}
+.show-answ-2:hover .hidden{
+    display: block;
+}
 /* FOOTER  */
 footer hr {
     width: 50%;
