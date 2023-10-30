@@ -44,6 +44,16 @@ body{
 .max-h{
     height: calc(100vw / 3);
 }
+.hidden{
+    display: none;
+}
+.max-w{
+    max-width: 400px;
+}
+.style-0{
+    color: black;
+    text-decoration: none;
+}
 
 /* column  */
 .col-20{
@@ -66,6 +76,9 @@ body{
 }
 .col-70{
     width: 70%;
+}
+.col-80{
+    width: 80%;
 }
 .col-100{
     width: 100%;
@@ -105,7 +118,7 @@ hr{
 button{
     padding: 10px 20px;
     border: 0;
-    
+    cursor: pointer;
 }
 .img{
     width: 100%;
@@ -212,6 +225,7 @@ header{
 
 header li{
     padding: 10px;
+    cursor: pointer;
 }
 
 header ul{
@@ -220,6 +234,17 @@ header ul{
 header img{
     min-width:10px ;
 }
+.show:hover{
+    background-color: rgb(208, 201, 196);
+}
+.show:hover .hidden{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    background-color: rgb(208, 201, 196);
+}
+
+
 /* MAIN  */
 h1{
     font-size: 80px;
@@ -229,8 +254,12 @@ h1{
 #jumbo{
     width: 100%;
     position: absolute;
-    top: 10px;
+    top: 25px;
 }
+i.fa-arrow-down{
+    font-size: 40px; 
+    margin-bottom: 10px; 
+  }
 /* radio input  */
 /* Create a custom radio button */
 .container-radio{
@@ -274,11 +303,7 @@ h1{
    background: rgb(255, 255, 255);
 }
 /* END RADIO  */
-i.fa-arrow-down{
-  margin-top: 100px;
-  font-size: 40px; 
-  margin-bottom: 10PX; 
-}
+
 h2{
     margin: 80px 0 30px;
     font-size: 40px;
