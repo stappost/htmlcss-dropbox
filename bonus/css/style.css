@@ -336,6 +336,9 @@ h3{
 .bg_lightgray.max-h{
     overflow: auto;
 }
+.square.bg_lightgreen:hover{
+    background-color: rgb(3, 255, 3) ;
+}
 
 /* FOOTER  */
 footer hr {
